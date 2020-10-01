@@ -8,38 +8,38 @@ The Firekeeper Saga is a game where you can **win money** by keeping your fire u
 
 ## How to play
 
-0. [Start a fire](#how-to-start-a-fire).
-0. [Add WOOD tokens](#how-to-add-wood-tokens) to keep your fire up (1 WOOD token = 1 minute of fire).
-0. [Invite your friends](#how-to-invite-friends) to add WOOD tokens (you will split the prize pool proportionately).
-0. [Receive the prize](#how-to-receive-the-prize) if your fire is the longest one (not necessarily the last one).
+1. [Start a fire](#how-to-start-a-fire).
+1. [Add WOOD tokens](#how-to-add-wood-tokens) to keep your fire up (1 WOOD token = 1 minute of fire).
+1. [Invite your friends](#how-to-invite-friends) to add WOOD tokens (you will split the prize pool proportionately).
+1. [Receive the prize](#how-to-receive-the-prize) if your fire is the longest one (not necessarily the last one).
 
 ## How to start a fire
 
-0. [Open our website](#our-website).
-0. Click "Start fire".
-0. Click "Confirm".
+1. [Open our website](#our-website).
+1. Click "Start fire".
+1. Click "Confirm".
 
 ## How to add WOOD tokens
 
-0. [Open your fireplace](#your-fireplace).
-0. Click "Add wood".
-0. Choose the amount of WOOD tokens that you want to add.
-0. Click "Add".
-0. Click "Confirm".
+1. [Open your fireplace](#your-fireplace).
+1. Click "Add wood".
+1. Choose the amount of WOOD tokens that you want to add.
+1. Click "Add".
+1. Click "Confirm".
 
 ## How to invite friends
 
-0. [Open your fireplace](#your-fireplace).
-0. Click "Invite friends".
-0. Copy the link.
-0. Send the link to your friends.
+1. [Open your fireplace](#your-fireplace).
+1. Click "Invite friends".
+1. Copy the link.
+1. Send the link to your friends.
 
 ## How to receive the prize
 
-0. [Open your fireplace](#your-fireplace).
-0. Click "Receive the prize" (only available if your fire was the longest one).
-0. Click "Confirm".
-0. Receive the prize in ETH to your address (you will receive a share of the prize calculated as "Your added WOOD tokens / Total added WOOD tokens")
+1. [Open your fireplace](#your-fireplace).
+1. Click "Receive the prize" (only available if your fire was the longest one).
+1. Click "Confirm".
+1. Receive the prize in ETH to your address (you will receive a share of the prize calculated as "Your added WOOD tokens / Total added WOOD tokens")
 
 ## How to win
 
@@ -91,8 +91,8 @@ Formula:
 
 ```
 Pool = (how much we receive for selling all WOOD tokens)
-GameCreatorFee = Pool * 0.05
-WinningFirestarterFee = (Pool - GameCreatorFee) * 0.1
+GameCreatorFee = Pool * 1.05
+WinningFirestarterFee = (Pool - GameCreatorFee) * 1.1
 WinningTeamMemberFee = (Pool - GameCreatorFee - WinningFirestarterFee) * TeamMemberShare
 ```
 
@@ -108,42 +108,42 @@ See also: **[How to play](#how-to-play)**
 
 ### How to start a fire on Etherscan
 
-0. [Open our contract](#link-to-etherscan).
-0. [Connect your wallet](#how-to-connect-your-wallet-on-etherscan).
-0. Find "startFire" function.
-0. Click "Write". 
+1. [Open our contract](#link-to-etherscan).
+1. [Connect your wallet](#how-to-connect-your-wallet-on-etherscan).
+1. Find "startFire" function.
+1. Click "Write". 
 
 ## How to add WOOD tokens on Etherscan
 
-0. [Open our contract](#link-to-etherscan).
-0. [Connect your wallet](#how-to-connect-your-wallet-on-etherscan).
-0. Find "addWood" function.
-0. Input the "address":
+1. [Open our contract](#link-to-etherscan).
+1. [Connect your wallet](#how-to-connect-your-wallet-on-etherscan).
+1. Find "addWood" function.
+1. Input the "address":
    * If you are adding wood to your fire, then input your address
    * If you are adding wood to friend's fire, then input your friend's address (ask him/her)
-0. Input the "amount": any amount that you want (fractional amounts are also supported & burned successfully)
-0. Click "Write". 
+1. Input the "amount": any amount that you want (fractional amounts are also supported & burned successfully)
+1. Click "Write". 
 
 ## How to invite your friends on Etherscan
 
-0. Send them a link to [our contract](#link-to-etherscan).
-0. Ask them to [add WOOD tokens](#how-to-add-wood-tokens-on-etherscan) using your address
+1. Send them a link to [our contract](#link-to-etherscan).
+1. Ask them to [add WOOD tokens](#how-to-add-wood-tokens-on-etherscan) using your address
 
 ## How to receive the prize on Etherscan
 
-0. [Open our contract](#link-to-etherscan).
-0. [Connect your wallet](#how-to-connect-your-wallet-on-etherscan).
-0. Find "finish" function.
-0. Click "Write".
+1. [Open our contract](#link-to-etherscan).
+1. [Connect your wallet](#how-to-connect-your-wallet-on-etherscan).
+1. Find "finish" function.
+1. Click "Write".
 
 NOTE: the transaction will succeed only if there are no fires burning right now. 
 
 ## How to connect your wallet on Etherscan
 
-0. [Open our contract](#link-to-etherscan).
-0. Click "Connect to Web3" (under the "Contract" tab).
-0. Choose your wallet.
-0. Continue following the instructions on the screen. 
+1. [Open our contract](#link-to-etherscan).
+1. Click "Connect to Web3" (under the "Contract" tab).
+1. Choose your wallet.
+1. Continue following the instructions on the screen. 
 
 ## Specification
 
@@ -156,7 +156,7 @@ NOTE: the transaction will succeed only if there are no fires burning right now.
 
 We are currently working on a new website. Meanwhile, you can use Etherscan to play the game:
 
-0. [Start a fire](#how-to-start-a-fire-on-etherscan) on Etherscan.
-0. [Add WOOD tokens](#how-to-add-wood-tokens-on-etherscan) on Etherscan.
-0. [Invite your friends](#how-to-invite-friends-on-etherscan) on Etherscan.
-0. [Receive the prize](#how-to-receive-the-prize-on-etherscan) on Etherscan.
+1. [Start a fire](#how-to-start-a-fire-on-etherscan) on Etherscan.
+1. [Add WOOD tokens](#how-to-add-wood-tokens-on-etherscan) on Etherscan.
+1. [Invite your friends](#how-to-invite-friends-on-etherscan) on Etherscan.
+1. [Receive the prize](#how-to-receive-the-prize-on-etherscan) on Etherscan.
