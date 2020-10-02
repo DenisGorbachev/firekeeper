@@ -9,7 +9,7 @@ The Firekeeper Saga is a game where you can **win money** by keeping your fire u
 ## How to play
 
 1. [Start a fire](#how-to-start-a-fire).
-1. [Add WOOD tokens](#how-to-add-wood-tokens) to keep your fire up (1 WOOD token = 1 minute of fire).
+1. [Add WOOD tokens](#how-to-add-wood-tokens) to keep your fire up (100 WOOD tokens = 1 minute of fire).
 1. [Invite your friends](#how-to-invite-friends) to add WOOD tokens (you will split the prize pool proportionately).
 1. [Receive the prize](#how-to-receive-the-prize) if your fire is the longest one (not necessarily the last one).
 
@@ -149,7 +149,7 @@ NOTE: the transaction will succeed only if there are no fires burning right now.
 
 * Symbol: WOOD
 * Type: ERC-20
-* Total supply: 100'000 WOOD
+* Total supply: 10'000'000 WOOD
 * Distribution: 1% airdrop + periodic sales on Uniswap
 
 ## Our website
