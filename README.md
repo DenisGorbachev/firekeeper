@@ -6,6 +6,8 @@ The Firekeeper Saga is a game where you can **win real money** by keeping your f
 * **[How much can I win?](#how-much-can-i-win)**
 * **[How much can I lose?](#how-much-can-i-lose)**
 
+P.S. There is no minimum stake - you can play with any amount.
+
 ## How to play
 
 1. [Start a fire](#how-to-start-a-fire).
