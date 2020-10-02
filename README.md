@@ -1,6 +1,6 @@
 # The Firekeeper Saga
 
-The Firekeeper Saga is a game where you can **win money** by keeping your fire up longer than others.
+The Firekeeper Saga is a game where you can **win real money** by keeping your fire up longer than others.
 
 * **[How to win?](#how-to-win)**
 * **[How much can I win?](#how-much-can-i-win)**
